@@ -1,0 +1,43 @@
+/* Add your common styling across all pages here */
+body {
+    font-family: 'Times New Roman', Times, serif
+    margin: 20;
+    padding: 20;
+}
+
+header, nav, section, footer {
+    margin: 20px;
+}
+
+header {
+    background-color:lightblue;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding:20;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(78, 171, 194);
+}
+
+section {
+    line-height: 1.6;
+}
+
+footer {
+    margin-top: 50px;
+    text-align: center;
+    color: #d61c1c59;
+}
+p {
+    color: #008080; /* You can use color names, hex codes, or RGB values */
+}
